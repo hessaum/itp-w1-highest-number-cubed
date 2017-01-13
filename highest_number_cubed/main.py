@@ -2,4 +2,8 @@
 
 
 def highest_number_cubed(limit):
-    pass
+    for i in range(limit):
+        if i**3 > limit:
+            return (i-1)
+            
+print(highest_number_cubed(30))
